@@ -6,10 +6,15 @@ fun main() {
     var number=33
     println("Hello $userName! your age is $age")
 
-    byteIntLong()
+//    byteIntLong()
+    floatingType()
 }
 
 fun byteIntLong(){
+
+    val myNumber=28L  // to convert into Long
+
+
     val myMaxLongValue:Long= Long.MAX_VALUE;
     val myMinLongValue:Long= Long.MIN_VALUE;
     println("Long max value: $myMaxLongValue") //9223372036854775807
@@ -31,4 +36,10 @@ fun byteIntLong(){
     println("Byte max value: $myMaxByteValue") //127
     println("Byte min value: $myMinByteValue") //-128
 
+}
+
+fun floatingType(){
+     val myNumber=2.5f   // to convert double to float
+     val myDoubleNumber=2.5
+     print("myNumber=$myNumber and myDoubleNumber=$myDoubleNumber")
 }
