@@ -85,3 +85,11 @@ fun whenStatement() {
 
 
 }
+
+fun nullOperater()
+{
+    var text:String?=null;
+    val text2=text?: "kdskmdfs"  /** [?:] work as [??] in dart */
+    println(text!!.length)         /** [!!] work as if it not null do the operation else throw the exception*/
+
+}
