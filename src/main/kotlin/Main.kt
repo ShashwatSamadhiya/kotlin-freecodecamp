@@ -7,7 +7,8 @@ fun main() {
     println("Hello $userName! your age is $age")
 
 //    byteIntLong()
-    floatingType()
+//    floatingType()
+    charactersAndBoolean()
 }
 
 fun byteIntLong(){
@@ -42,4 +43,10 @@ fun floatingType(){
      val myNumber=2.5f   // to convert double to float
      val myDoubleNumber=2.5
      print("myNumber=$myNumber and myDoubleNumber=$myDoubleNumber")
+}
+
+fun charactersAndBoolean(){
+    val myCharValue:Char='D'
+    val myBoolean:Boolean=false
+    println("myCharValue :$myCharValue \nmyBoolean:$myBoolean")
 }
