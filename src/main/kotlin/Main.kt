@@ -9,7 +9,8 @@ fun main() {
 //    byteIntLong()
 //    floatingType()
 //    charactersAndBoolean()
-    whenStatement()
+//    whenStatement()
+    sayHello()
 }
 
 fun byteIntLong() {
@@ -70,15 +71,15 @@ fun whenStatement() {
 
     }
     /** if we don't give argument bracket in
-     when statement it executes as series of
-     if else commands
-     it breaks after it gets it's
-     first correct expression
-      */
-    when  {
-        5<12 -> println("this time is $alarm")  // it check if alarm is 12 or 13
-        7>12 -> println("hello there")
-        7<12 -> println("hello there 2")
+    when statement it executes as series of
+    if else commands
+    it breaks after it gets it's
+    first correct expression
+     */
+    when {
+        5 < 12 -> println("this time is $alarm")  // it check if alarm is 12 or 13
+        7 > 12 -> println("hello there")
+        7 < 12 -> println("hello there 2")
 
         else -> println("this time is $alarm")
     }
@@ -86,10 +87,11 @@ fun whenStatement() {
 
 }
 
-fun nullOperater()
-{
-    var text:String?=null;
-    val text2=text?: "kdskmdfs"  /** [?:] work as [??] in dart */
-    println(text!!.length)         /** [!!] work as if it not null do the operation else throw the exception*/
+fun nullOperater() {
+    var text: String? = null;
+    val text2 = text ?: "kdskmdfs"
+    /** [?:] work as [??] in dart */
+    println(text!!.length)
+    /** [!!] work as if it not null do the operation else throw the exception*/
 
 }
