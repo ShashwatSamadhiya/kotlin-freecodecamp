@@ -95,3 +95,20 @@ fun nullOperater() {
     /** [!!] work as if it not null do the operation else throw the exception*/
 
 }
+
+/**
+read about labels in kotlin
+. e.g outer */
+fun loops() {
+    outer@ for (i in 1..10) {
+        println(i);
+    }
+    for (i in 1 until 10) {
+        println(i);
+    }
+    for (i in 10 downTo 1) {
+        println(i);
+    }
+
+
+}
