@@ -1,16 +1,23 @@
 fun main() {
-    var userName: String = "Shashwat"
-    var age: Int? = null
-    /// type inference is process by which the type of variable
-    /// can be deducted by the value assigned
-    var number = 33
-    println("Hello $userName! your age is $age")
+//    var userName: String = "Shashwat"
+//    var age: Int? = null
+//    /// type inference is process by which the type of variable
+//    /// can be deducted by the value assigned
+//    var number = 33
+//    println("Hello $userName! your age is $age")
 
 //    byteIntLong()
 //    floatingType()
 //    charactersAndBoolean()
 //    whenStatement()
-    sayHello()
+//    sayHello()
+
+    val car1=Car("Teslahhej","X3")
+
+
+    println("Name = ${car1.name}")
+
+    car1.move()
 }
 
 fun byteIntLong() {
@@ -93,5 +100,26 @@ fun nullOperater() {
     /** [?:] work as [??] in dart */
     println(text!!.length)
     /** [!!] work as if it not null do the operation else throw the exception*/
+}
 
+/**
+read about labels in kotlin
+. e.g outer */
+fun loops() {
+    outer@ for (i in 1..10) {
+        println(i);
+    }
+    for (i in 1 until 10) {
+        println(i);
+    }
+    for (i in 10 downTo 1) {
+        println(i);
+    }
+
+
+}
+
+fun array()
+{
+    val namesArray=arrayOf("Hjdgbj")
 }
