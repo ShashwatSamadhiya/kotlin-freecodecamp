@@ -12,12 +12,17 @@ fun main() {
 //    whenStatement()
 //    sayHello()
 
-    val car1=Car("Teslahhej","X3")
+//    val car1=Car("Teslahhej","X3")
+//
+//
+//    println("Name = ${car1.name}")
+//
+//    car1.move()
+
+    var user =User("First trying Name","Last name",21)
+    println(user.firstName)
 
 
-    println("Name = ${car1.name}")
-
-    car1.move()
 }
 
 fun byteIntLong() {
